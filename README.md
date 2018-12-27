@@ -7,31 +7,19 @@
 * dubbo-registry-simple
 
 
-## NOTICE  
+## 提示  
 dubbo admin 是官网`develop`的分支，可下载直接使用
 
 
-## How to use it
+## 使用说明
 
-### dubbo admin
+可以用你的IDE Terminal
 
-Dubbo admin is a spring boot application, you can start it with fat jar or in IDE directly.
+1、进入dubbo-demo 模块下的target文件下执行命令运行
 
-### dubbo monitor and dubbo registry
+命令：java -jar dubbo-admin-0.0.1-SNAPSHOT.jar 运行
 
-You can get a release of dubbo monitor in two steps:
+2、启动成功后访问 http://localhost:7001
 
-* Step 1:
-```
-git clone https://github.com/apache/incubator-dubbo-ops
-```
 
-* Step 2:
-```
-cd incubator-dubbo-ops && mvn package
-```
-
-Then you will find:
-
-* dubbo-monitor-simple-2.0.0-assembly.tar.gz in incubator-dubbo-ops\dubbo-monitor-simple\target directory. Unzip it you will find the shell scripts for starting or stopping monitor.
-* dubbo-registry-simple-2.0.0-assembly.tar.gz in incubator-dubbo-ops\dubbo-registry-simple\target directory. Unzip it you will find the shell scripts for starting or stopping registry.
+3、后台查看服务使用情况
